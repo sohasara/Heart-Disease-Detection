@@ -61,6 +61,7 @@ class _HeartPulseState extends State<HeartPulse>
               height: 140,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
+                // ignore: deprecated_member_use
                 color: const Color(0xFF00A896).withOpacity(0.18),
               ),
             ),
