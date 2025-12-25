@@ -20,6 +20,7 @@ class ProfileScreen extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 28,
+                  // ignore: deprecated_member_use
                   backgroundColor: Colors.white.withOpacity(0.2),
                   child: const Icon(
                     Icons.person,

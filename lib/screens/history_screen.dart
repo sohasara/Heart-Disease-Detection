@@ -117,6 +117,7 @@ class _HistoryItem extends StatelessWidget {
         child: Row(
           children: [
             CircleAvatar(
+              // ignore: deprecated_member_use
               backgroundColor: riskColor.withOpacity(0.15),
               child: Icon(Icons.favorite, color: riskColor),
             ),
@@ -140,6 +141,7 @@ class _HistoryItem extends StatelessWidget {
                           vertical: 4,
                         ),
                         decoration: BoxDecoration(
+                          // ignore: deprecated_member_use
                           color: riskColor.withOpacity(0.15),
                           borderRadius: BorderRadius.circular(12),
                         ),

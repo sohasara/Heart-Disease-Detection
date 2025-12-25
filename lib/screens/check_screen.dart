@@ -19,20 +19,10 @@ class CheckScreen extends StatelessWidget {
                 Row(
                   children: const [
                     Expanded(
-                      child: RadioListTile(
-                        value: 1,
-                        groupValue: 1,
-                        onChanged: null,
-                        title: Text("Male"),
-                      ),
+                      child: RadioListTile(value: 1, title: Text("Male")),
                     ),
                     Expanded(
-                      child: RadioListTile(
-                        value: 0,
-                        groupValue: 1,
-                        onChanged: null,
-                        title: Text("Female"),
-                      ),
+                      child: RadioListTile(value: 0, title: Text("Female")),
                     ),
                   ],
                 ),
@@ -85,6 +75,7 @@ class CheckScreen extends StatelessWidget {
             Row(
               children: [
                 CircleAvatar(
+                  // ignore: deprecated_member_use
                   backgroundColor: color.withOpacity(0.15),
                   child: Icon(icon, color: color),
                 ),
